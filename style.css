@@ -27,7 +27,8 @@ body {
 }
 
 input {
-    height: 6rem;
+    height: 5rem;
+    width: 27rem;
     border-radius: 1rem;
     font-family: inherit;
     padding-left: 0.5rem;
@@ -43,8 +44,8 @@ button {
     font-family: inherit;
     color: var(--bg-color);
     border: 3px solid var(--bg-color);
-    font-size: clamp(2.9rem, 5vw, 4rem);
     background-color: var(--input-color);
+    font-size: clamp(2.9rem, 5vw, 4.5rem);
 }
 
 .container {
@@ -119,7 +120,6 @@ button {
 
 .input-flex {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
