@@ -48,7 +48,8 @@ button {
     font-family: inherit;
     color: var(--bg-color);
     border: 3px solid var(--bg-color);
-    font-size: clamp(3rem, 8vw, 4.5rem);
+    /* font-size: clamp(3rem, 8vw, 4.5rem); */
+    font-size: clamp(3rem, 100%, 4.5rem);
     background-color: var(--input-color);
 }
 
