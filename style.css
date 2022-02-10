@@ -40,6 +40,7 @@ input {
 
 button {
     width: 100%;
+    height: max-content;
     max-width: 37rem;
     border-radius: 1rem;
     font-family: inherit;
