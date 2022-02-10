@@ -27,7 +27,7 @@ body {
 }
 
 input {
-    height: 5rem;
+    height: 6rem;
     font-size: 2.5rem;
     border-radius: 1rem;
     font-family: inherit;
@@ -78,7 +78,7 @@ button {
     align-items: center;
     gap: 3rem;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--text-color);
     border-radius: 2rem 0 0 2rem;
     border: 3px solid var(--white);
@@ -91,7 +91,7 @@ button {
     align-items: center;
     gap: 3rem;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--text-color);
     border-radius: 0 2rem 2rem 0;
     border: 3px solid var(--white);
@@ -122,4 +122,10 @@ button {
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+}
+
+.container-input-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
