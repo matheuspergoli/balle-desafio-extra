@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="breakpoint-media.css">
+    <script src="script.js" defer></script>
+    <title>Desafio Extra / HTML & CSS & JS</title>
+</head>
+<body>
+    <header id="header">Desafio Extra</header>
+
+    <div id="container-flex" class="container">
+        <section id="first-section-flex">
+            <h1 class="section-title">Digite os dados do usuário</h1>
+
+            <p class="input-flex">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name">
+            </p>
+
+            <p class="input-flex">
+                <label for="age">Idade</label>
+                <input type="text" name="age" id="age">
+            </p>
+
+            <p class="input-flex">
+                <label for="skills">Skills</label>
+                <input type="text" name="skills" id="skills">
+            </p>
+
+            <button id="submit">Cadastrar usuário</button>
+        </section>
+
+        <section id="second-section-flex">
+            <h1 class="section-title">Resultado:</h1>
+
+            <div>
+                <p id="name-field"></p>
+                <p id="name-result"></p>
+            </div>
+
+            <div>
+                <p id="age-field"></p>
+                <p id="age-result"></p>
+            </div>
+
+            <div>
+                <p id="skills-field"></p>
+                <p id="skills-result"></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

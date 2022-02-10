@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --gold: #EFC764;
+    --white: #FFFFFF;
+    --bg-color: #2F2325;
+    --light-blue: #97D4D9;
+    --text-color: #FFF2E7;
+    --input-color: #C8BAB2;
+    --section-color: #483636;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Concert One', cursive;
+}
+
+body {
+    background-color: var(--bg-color);
+    padding-bottom: 1.5rem;
+}
+
+input {
+    height: 5rem;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+    font-family: inherit;
+    padding-left: 0.5rem;
+    border: 3px solid var(--bg-color);
+    background-color: var(--input-color);
+}
+
+button {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-family: inherit;
+    color: var(--bg-color);
+    border: 3px solid var(--bg-color);
+    font-size: clamp(2.9rem, 5vw, 4rem);
+    background-color: var(--input-color);
+}
+
+.container {
+    margin: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#header {
+    color: var(--white);
+    font-weight: bolder;
+    margin: 3.5rem 0px 5rem 3.5rem;
+    font-size: clamp(4.5rem, 5vw, 8rem);
+}
+
+#container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container-flex > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25rem;
+    min-width: 29rem;
+}
+
+#first-section-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    font-size: 3rem;
+    color: var(--text-color);
+    border-radius: 2rem 0 0 2rem;
+    border: 3px solid var(--white);
+    background-color: var(--section-color);
+}
+
+#second-section-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    font-size: 3rem;
+    color: var(--text-color);
+    border-radius: 0 2rem 2rem 0;
+    border: 3px solid var(--white);
+    background-color: var(--section-color);
+}
+
+#name-field,
+#age-field,
+#skills-field {
+    text-align: center;
+    color: var(--light-blue);
+}
+
+#name-result,
+#age-result,
+#skills-result {
+    text-align: center;
+    color: var(--gold);
+}
+
+.section-title {
+    text-align: center;
+    font-size: clamp(3.5rem, 5vw, 5rem);
+}
+
+.input-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
