@@ -42,10 +42,10 @@ button {
     height: auto;
     padding: 1rem;
     cursor: pointer;
-    text-transform: full-width;
     max-width: 37rem;
     border-radius: 1rem;
     font-family: inherit;
+    vertical-align: middle;
     color: var(--bg-color);
     border: 3px solid var(--bg-color);
     font-size: clamp(3rem, 100%, 4.5rem);
