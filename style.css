@@ -122,6 +122,12 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    width: 100%;
+    max-width: 40rem;
+}
+
+.input-flex > label {
+    flex-grow: 1;
 }
 
 .container-input-flex {
