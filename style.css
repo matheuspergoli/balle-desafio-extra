@@ -40,9 +40,9 @@ input {
 button {
     width: 100%;
     height: auto;
+    padding: 1rem;
     cursor: pointer;
     max-width: 37rem;
-    line-height: normal;
     border-radius: 1rem;
     font-family: inherit;
     color: var(--bg-color);
