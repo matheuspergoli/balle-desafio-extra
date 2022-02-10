@@ -40,20 +40,14 @@ input {
 
 button {
     width: 100%;
-    height: max-content;
-    max-width: 37rem;
+    cursor: pointer;
+    max-width: 40rem;
     border-radius: 1rem;
-    font-family: inherit;
+    /* font-family: inherit; */
     color: var(--bg-color);
     border: 3px solid var(--bg-color);
     font-size: clamp(3rem, 100%, 4.5rem);
     background-color: var(--input-color);
-}
-
-button > a {
-    display: block;
-    width: 100%;
-    color: var(--section-color);
 }
 
 .container {
