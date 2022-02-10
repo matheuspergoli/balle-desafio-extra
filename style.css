@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -39,17 +40,19 @@ input {
 
 button {
     width: 100%;
-    height: auto;
-    padding: 1rem;
-    cursor: pointer;
     max-width: 37rem;
     border-radius: 1rem;
     font-family: inherit;
-    vertical-align: middle;
     color: var(--bg-color);
     border: 3px solid var(--bg-color);
     font-size: clamp(3rem, 100%, 4.5rem);
     background-color: var(--input-color);
+}
+
+button > a {
+    display: block;
+    width: 100%;
+    color: var(--section-color);
 }
 
 .container {
