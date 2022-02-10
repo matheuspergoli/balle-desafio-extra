@@ -28,11 +28,11 @@ body {
 
 input {
     height: 6rem;
-    font-size: 2.5rem;
     border-radius: 1rem;
     font-family: inherit;
     padding-left: 0.5rem;
     border: 3px solid var(--bg-color);
+    font-size: clamp(2rem, 5vw, 2.5rem);
     background-color: var(--input-color);
 }
 
