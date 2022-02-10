@@ -32,7 +32,6 @@ input {
     width: 27rem;
     text-indent: 1rem;
     border-radius: 1rem;
-    font-family: inherit;
     border: 3px solid var(--bg-color);
     font-size: clamp(2rem, 5vw, 2.5rem);
     background-color: var(--input-color);
@@ -43,7 +42,6 @@ button {
     cursor: pointer;
     max-width: 40rem;
     border-radius: 1rem;
-    /* font-family: inherit; */
     color: var(--bg-color);
     border: 3px solid var(--bg-color);
     font-size: clamp(3rem, 100%, 4.5rem);
